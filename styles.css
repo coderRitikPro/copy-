@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+.addcomment{
+    height:fit-content;
+    width:100%;
+
+}
+
+.allcomments{
+   background-color: brown;
+}
+
+.copy {
+    padding: 10px;         /* 10px padding around the content */
+    margin-left: 10px;     /* Space between the comment text and the button */
+    font-size: 14px;       /* Font size */
+    cursor: pointer;       /* Cursor pointer on hover */
+    background-color: #007bff; /* Button background color */
+    color: white;          /* Button text color */
+    border: none;          /* Remove border */
+    border-radius: 5px;    /* Rounded corners */
+}
+
+.copy:hover {
+    background-color: #0056b3; /* Darken button on hover */
+}
