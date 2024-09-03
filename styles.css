@@ -9,18 +9,20 @@ body{
 }
 
 .allcomments{
-   background-color: brown;
+   background-color: green;
 }
 
 .copy {
-    padding: 10px;         /* 10px padding around the content */
-    margin-left: 10px;     /* Space between the comment text and the button */
+    height: auto;
+    width: auto;
+   padding:10px;         /* 10px padding around the content */
+    margin-left:10px;     /* Space between the comment text and the button */
     font-size: 14px;       /* Font size */
     cursor: pointer;       /* Cursor pointer on hover */
-    background-color: #007bff; /* Button background color */
-    color: white;          /* Button text color */
+    background-color: gold; /* Button background color */
+             
     border: none;          /* Remove border */
-    border-radius: 5px;    /* Rounded corners */
+    border-radius: 100%;    /* Rounded corners */
 }
 
 .copy:hover {
